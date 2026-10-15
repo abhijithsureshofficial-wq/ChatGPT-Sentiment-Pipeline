@@ -1,0 +1,13 @@
+# Data and Models (Too big for GitHub)
+data/
+*.csv
+*.joblib
+*.pkl
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Python
+__pycache__/
+*.pyc
+.env

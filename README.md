@@ -22,19 +22,8 @@ Finally, to guarantee production reliability, the entire workflow—from raw tex
 - `requirements.txt`: Dependencies required to run the project.
 
 ## Project Architecture
-Raw Review Text 
-   │
-   ▼
-[ ReviewCleaner ] ──► (Lowercases, translates emojis, expands contractions, keeps negations)
-   │
-   ▼
-[ TF-IDF Vectorizer ] ──► (Unigrams + Bigrams, sublinear scaling, noise filtering)
-   │
-   ▼
-[ Balanced Classifier ] ──► (Logistic Regression / Naive Bayes)
-   │
-   ▼
-Predicted Sentiment + Confidence Score
+<img width="602" height="382" alt="Untitled Diagram" src="https://github.com/user-attachments/assets/9363a73f-1d60-413a-bd42-5392bddea2f8" />
+
 
 ## How to Run
 1. Clone the repo: `git clone <repo-url>`
